@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.animation {
+  opacity: 0;
+}
+
+@keyframes card-in {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(2%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
